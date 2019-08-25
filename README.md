@@ -11,7 +11,7 @@
 
 # Tutorial
 
-1. Clonar o repositorio para o local desejado:
+1. Clonar o repositório para o local desejado:
 git clone git@github.com:igorbnl/LettPOO.git
 
 2. Executar no linux/window:
@@ -22,14 +22,14 @@ javar -jar path\.LettPOO.jar
  
  
  3. Preencher os dados dos animais.
- - ![](/LettPOO/exe1.png)
+ - ![](https://github.com/igorbnl/LettPOO/blob/master/exe1.png)
  
  4. Quando acabar de preencher será mostrado um relatório com todos os dados:
-  - ![](/LettPOO/linux.png)
+  - ![](https://github.com/igorbnl/LettPOO/blob/master/linux.png)
   
   
   # Diagrama de classe
   
-  - ![](/LettPOO/diagramaClasses.png)
+  - ![](https://github.com/igorbnl/LettPOO/blob/master/diagramaClasses.png)
 
 
