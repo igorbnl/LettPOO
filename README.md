@@ -25,4 +25,11 @@ javar -jar path\.LettPOO.jar
  - ![](/LettPOO/exe1.png)
  
  4. Quando acabar de preencher será mostrado um relatório com todos os dados:
-  - ![](/LettPOO/exe2.png)
+  - ![](/LettPOO/linux.png)
+  
+  
+  # Diagrama de classe
+  
+  - ![](/LettPOO/diagramaClasses.png)
+
+
