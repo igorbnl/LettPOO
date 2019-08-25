@@ -30,6 +30,6 @@ javar -jar path\.LettPOO.jar
   
   # Diagrama de classe
   
-  - ![](https://github.com/igorbnl/LettPOO/blob/master/diagramaClasses.png)
+  - ![](https://github.com/igorbnl/LettPOO/blob/master/diagramaClasse.png)
 
 
