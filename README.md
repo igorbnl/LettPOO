@@ -11,8 +11,7 @@
 
 # Tutorial
 
-1. Clonar o repositório para o local desejado:
-git clone git@github.com:igorbnl/LettPOO.git
+1. Faça download do repositório para o local desejado
 
 2. Executar no linux/window:
 javar -jar path\.LettPOO.jar
