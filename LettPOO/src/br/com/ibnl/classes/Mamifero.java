@@ -1,5 +1,15 @@
 package br.com.ibnl.classes;
 
+
+/*
+ * A classe Mamifero é uma subclasse de Animal.
+ * 
+ * O fato de termos 2 animais e 1 com habilidade de voar e outro nao, 
+ * foi necessário criar 2 construtores.
+ * 
+ * 
+ */
+
 public class Mamifero extends Animal{
 	
 	private String corPelo;
@@ -26,10 +36,10 @@ public class Mamifero extends Animal{
 	}
 	
 	//morcego
-	public Mamifero(int idade, double tamanho, double altura, String corPelo) {
+	public Mamifero(int idade, double tamanho, double altitude, String corPelo) {
 		this.getIdade();
 		this.getTamanho();
-		this.getAltura();
+		this.getAltitude();
 		this.getCorPelo();
 	
 	}

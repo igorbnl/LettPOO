@@ -1,5 +1,14 @@
 package br.com.ibnl.classes;
 
+
+/*
+ * A classe Aves é uma subclasse de Animal.
+ * 
+ * O fato de termos 2 animais e 1 com habilidade de voar e outro nao, 
+ * foi necessário criar 2 construtores.
+ * 
+ * 
+ */
 public class Aves extends Animal {
 	
 	private String corPena;
@@ -19,10 +28,10 @@ public class Aves extends Animal {
 		System.out.println("consegue botar ovo");
 	}
 	//pato
-	public Aves(int idade, double tamanho, double altura, String corPena) {
+	public Aves(int idade, double tamanho, double altitude, String corPena) {
 		this.getIdade();
 		this.getTamanho();
-		this.getAltura();
+		this.getAltitude();
 		this.getCorPena();
 		
 	}

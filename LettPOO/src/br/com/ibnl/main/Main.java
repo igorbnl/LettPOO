@@ -1,6 +1,16 @@
 package br.com.ibnl.main;
 
-
+/*
+ * Todas as classes foram previamentes instanciadas e em seguida os dados
+ * são recebidos via console.
+ * 
+ * Foi utilizada a classe Scanner para  realizar a entrada de dados.
+ * 
+ * Após preencher os dados de todos os animais é gerado um relatório com os dados.
+ * 
+ * Ao inserir os dados é feito uma validação de dados, só será aceito números não negativos(>=0)
+ * 
+ */
 import br.com.ibnl.classes.Aves;
 import br.com.ibnl.classes.Mamifero;
 
@@ -54,11 +64,11 @@ public class Main {
 				System.out.println("digite a altitude que o pato consegue voar(apenas números não negativos): ");
 				altitude = input.nextDouble();
 					if (altitude >= 0.0 ) {
-						pato.setAltura(altitude);
+						pato.setAltitude(altitude);
 					}			
 				}while(altitude < 0.0);
 		} catch (Exception e) {
-			System.out.println("ERRO. O campo Altura só aceita números: "+e.getMessage());
+			System.out.println("ERRO. O campo Altitude só aceita números: "+e.getMessage());
 			System.exit(1);
 		}
 		input.nextLine();
@@ -156,6 +166,20 @@ public class Main {
 		System.out.println("ERRO. O campo tamanho só aceita números: "+e.getMessage());
 		System.exit(1);
 	}
+	
+	try {
+		do{
+			System.out.println("digite a altitude que o morcego consegue voar(apenas números não negativos): ");
+			altitude = input.nextDouble();
+				if (altitude >= 0.0 ) {
+					morcego.setAltitude(altitude);
+				}			
+			}while(altitude < 0.0);
+	} catch (Exception e) {
+		System.out.println("ERRO. O campo Altitude só aceita números: "+e.getMessage());
+		System.exit(1);
+	}
+	
 	input.nextLine();
 	System.out.println("Digite a cor do pelo do morcego");
 	cor = input.nextLine();
@@ -167,7 +191,7 @@ public class Main {
 			+ "| Tamanho: %.2f metros\t"
 			+ "| Altitude do vôo: %.2f metros\t"
 			+ "| Cor das penas: %s\t |"
-		, pato.getIdade(), pato.getTamanho(),pato.getAltura(),pato.getCorPena()));
+		, pato.getIdade(), pato.getTamanho(),pato.getAltitude(),pato.getCorPena()));
 	
 	pato.emitirSom("grasnido");
 	pato.botarOvo();
@@ -201,7 +225,7 @@ public class Main {
 			+ "| Tamanho: %.2f metros\t"
 			+ "| Altitude do vôo: %.2f metros\t"
 			+ "| Cor do pelo: %s |"
-		, morcego.getIdade(), morcego.getTamanho(),morcego.getAltura(),morcego.getCorPelo()));
+		, morcego.getIdade(), morcego.getTamanho(),morcego.getAltitude(),morcego.getCorPelo()));
 	
 	morcego.emitirSom("farfalho");
 	morcego.amamentar();
